@@ -33,7 +33,7 @@ function Header() {
             <Text fontSize="7xl" fontWeight="bold" bgGradient='linear(to-r, cyan.400, blue.500, purple.600)' bgClip="text">sumit Chandila</Text>
             <Text color={isDark ? 'gray.200' : 'gray.900'} >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, earum optio vel, iure tempore expedita nemo unde quaerat nesciunt repudiandae quidem! Amet eveniet perferendis eaque, explicabo nisi adipisci rerum sit.</Text>
             <Button mt={8} bgGradient='linear(to-r, cyan.400, blue.500, purple.600)' color="white" colorScheme='linear(to-r, cyan.400, blue.500, purple.600)' onClick={() =>
-              window.open("http://localhost:3000")
+              window.open("")
             }>Hire Me</Button>
           </Box>
           <Image alignSelf="center" mt={isNotSmallerScreen ? '0' : '12'}

@@ -19,21 +19,22 @@ function App() {
         <Flex w="100%" >
           <a href="http://localhost:3000" >
             <Heading
-              ml="8" size="md" fontWeight="semibold" color="cyan.400">SC PORTFOLIO
+              ml="8" size="md" fontWeight="semibold" color="cyan.400">SC_PORTFOLIO
             </Heading>
           </a>
+          
 
           <Spacer />
 
-          <IconButton ml="8" icon={<FaInstagram />} isRound="true" onClick={() =>
+          {/* <IconButton ml="8" icon={<FaInstagram />} isRound="true" onClick={() =>
             window.open("https://www.instagram.com/sumitchandila_o1/")
           }></IconButton>
           <IconButton ml="8" icon={<FaGithub />} isRound="true" onClick={() =>
             window.open("https://github.com/")
-          }></IconButton>
-          <IconButton ml="8" icon={<FaLinkedin />} isRound="true"></IconButton>
+          }></IconButton> */}
+          {/* <IconButton ml="8" icon={<FaLinkedin />} isRound="true"></IconButton> */}
           <IconButton ml="8" icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
-          <IconButton ml="8" onClick={onOpen} icon={<FaRegUserCircle />} isRound="true"></IconButton>
+          <IconButton ml="8" onClick={onOpen} icon={<FaRegUserCircle />} isRound="true"></IconButton> 
         </Flex>
 
         <Header />
